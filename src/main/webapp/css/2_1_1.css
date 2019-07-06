@@ -1,0 +1,49 @@
+body{
+	width: 1535px;
+	height: 880px;
+}
+
+.body{
+	background: #C0D9D9;
+}
+.left_list{
+	background: #3889D4;
+	width: 25%;
+	margin-left: 5%;
+	height: 700px;
+	margin-top: 10px;
+	border-radius: 6px;
+	text-align: center;
+}
+.right_body{
+	margin-left: 30%;
+	width: 65%;
+	margin-top: -700px;
+}
+.left_list ul span{
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 45px;
+}
+.left_list ul{
+	font-size: 17px;
+	height: 50px;
+	line-height: 50px;
+	background: #015293;
+	border-bottom: 0.5px solid gray;
+}
+
+.left_list{
+	color: white;
+}
+
+.left_list ul li:hover{
+	cursor: pointer;
+}
+.right_body iframe{
+	width: 100%;
+	border: none;
+	border-radius: 6px;
+	background: lightpink;
+	height: 680px;
+}

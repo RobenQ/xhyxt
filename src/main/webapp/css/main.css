@@ -1,0 +1,18 @@
+body{
+	width: 1535px;
+	height: 880px;
+}
+
+.content{
+	width: 100%;
+}
+.left_nav{
+	background: #CCCCCC;
+	width: 30%;
+	margin-left: 0px;
+}
+.page_content{
+	width: 70%;
+	background: burlywood;
+	
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xhyxt.mapper.TeachResourceMapper">
+	<resultMap type="com.xhyxt.bean.TeachResource" id="teachResourceMap">
+		<result column="name" property="name"/>
+		<result column="type" property="type"/>
+		<result column="section" property="section"/>
+		<result column="path" property="path"/>
+	</resultMap>
+	
+	<select id="selAll" resultMap="teachResourceMap">
+		select * from teach_resource where type=#{type};
+	</select>
+	
+	<insert id="insert" >
+		insert into teach_resource(name, type, section, path) 
+               values(#{name}, #{type}, #{section}, #{path});
+	</insert>
+	 <delete id="delete">
+	 	delete from teach_resource where type=#{type} and name=#{name} and path=#{path};
+	 </delete>
+</mapper>

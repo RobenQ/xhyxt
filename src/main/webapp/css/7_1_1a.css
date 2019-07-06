@@ -1,0 +1,30 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.div1{
+	height: 580px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	background: #a0f6aa;
+}
+
+.table{
+	height: 100px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 50px;
+	color: #F54809;
+	text-align: center;
+}
+
+.img{
+	width: 100%;
+	height: 520px;
+	border: none;
+	border-radius: 10px;
+}
